@@ -32,6 +32,12 @@ nav ul li img {
   width: 50px;
   border-radius: 50%;
 }
+nav ul li:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .geral {
   display: flex;
@@ -69,6 +75,11 @@ nav ul li img {
   font-weight: 600;
   border-radius: 16px;
   transition: background 0.5s;
+  cursor: pointer;
+}
+.apresentacao button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .galeria-donut {

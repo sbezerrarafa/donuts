@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
       img: './assets/Chocolate-principal.png',
     },
     pink: {
-      background: 'linear-gradient(45deg, #fe6b8b, #ff8e53)',
+      background: 'linear-gradient(45deg, #db70a4, #BFA5D6)',
       img: './assets/Pink-principal.png',
     },
     biscuits: {
