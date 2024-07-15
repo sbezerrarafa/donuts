@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donuts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="geral">
+    <div>
+      <nav>
+        <ul>
+          <li><img src="./assets/logo.png" alt="logo"></li>
+          <li>Sobre</li>
+          <li>Shops</li>
+          <li>Sobre Donut</li>
+        </ul>
+      </nav>
+      <div class="apresentacao">
+        <h1>Doce Lembrança</h1>
+        <p>Cake Donuts e Pipocas Gourmet.</p>
+        <button>Orçamento</button>
+      </div>
+    </div>
+    <div class="galeria-donut">
+      <img id="principal-img" src="./assets/Strawberry-principal.png" alt="principal">
+
+      <div class="carrossel-container">
+        <div class="carrossel-donut">
+          <img src="./assets/Chocolate.png" alt="1" class="donut-img" data-theme="chocolate">
+          <img src="./assets/Pink.png" alt="2" class="donut-img" data-theme="pink">
+          <img src="./assets/Biscuits.png" alt="3" class="donut-img" data-theme="biscuits">
+          <img src="./assets/Strawberry.png" alt="4" class="donut-img" data-theme="strawberry">
+          <!-- Duplicate the items for infinite scrolling effect -->
+          <img src="./assets/Chocolate.png" alt="1" class="donut-img" data-theme="chocolate">
+          <img src="./assets/Pink.png" alt="2" class="donut-img" data-theme="pink">
+          <img src="./assets/Biscuits.png" alt="3" class="donut-img" data-theme="biscuits">
+          <img src="./assets/Strawberry.png" alt="4" class="donut-img" data-theme="strawberry">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
